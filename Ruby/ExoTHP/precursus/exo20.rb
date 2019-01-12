@@ -16,5 +16,5 @@ puts "Voila la pyramide"
 while howlarge <= floor
   howlarge.times do print block end
   puts ""
-  howlarge += 1
+  howlarge += 2
 end
