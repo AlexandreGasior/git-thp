@@ -125,7 +125,7 @@ end
 # == TROUVER L'INDEX DE @epenser ==
 
 def journalists_index(journalists)
-    puts "L'index de @epenser est : #{journalists.index ("@epenser")}"
+    puts "L'index de @epenser est : #{journalists.index("@epenser")}"
 end
   
 how_many_journalists(journalists)
