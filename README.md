@@ -1,5 +1,3 @@
-![The Pussycat Tuffalo Show](IMG/the-pussycat-tuffalo-show.jpg)
-
 ![The Hacking Project](https://www.thehackingproject.org/packs/packs/static_pages/assets/images/logo_black-3d6bec995368618a7e9f44536410ae0a.png)
 ---
 ## Welcome aboard, sailor.
