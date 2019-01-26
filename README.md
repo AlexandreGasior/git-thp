@@ -1,7 +1,7 @@
 ![The Hacking Project](https://www.thehackingproject.org/packs/packs/static_pages/assets/images/logo_black-3d6bec995368618a7e9f44536410ae0a.png)
 ---
 ## WELCOME ABOARD, SAILOR ![Pirate ship](https://media.giphy.com/media/GFtsjaDVJnoNa/giphy.gif)
-Bienvenue sur mon repo personnel créé pour suivre la formation de The Hacking Project *(session 7 à Bordeaux)*.
+Bienvenue sur mon repo personnel créé pour suivre la formation de The Hacking Project *(session 7 à Bordeaux)*.  
 Il n'y a pas grand chose de plus à rajouter étant donné que ce repo fait principalement office de stockage pour mes cours de la formation mais libre à toi de regarder si l'envie t'en dit.
 
 ## ORGANISATION DU REPOSITORY ![Luffy miam](https://media.giphy.com/media/OuAvgfl8b1vgY/giphy.gif)
