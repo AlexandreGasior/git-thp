@@ -17,8 +17,8 @@ Si tu souhaites tout de même fouiller un peu, voilà un peu à quoi ressemble l
 ## NOTE ![Luffy kicks](https://media.giphy.com/media/axbcxcNThrlte/giphy.gif)
 Bien sûr si tu es ici juste dans le but de pomper des lignes de code sans chercher à en comprendre le fonctionnement, je te conseille vivement de te raviser car celà ne t'apportera rien.
 
-> "Now go ! I need to meditate.
-... Or masturbate !"
+> "Now go ! I need to meditate.  
+... Or masturbate !"  
 >                    -- Trevor
 
 ### AUTEUR     ![Donatello](https://www.informatiquegifs.com/tortues/gifs10.gif)
