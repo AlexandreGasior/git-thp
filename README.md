@@ -8,7 +8,7 @@ Il n'y a pas grand chose de plus à rajouter étant donné que ce repo fait prin
 Si tu souhaites tout de même fouiller un peu, voilà un peu à quoi ressemble l'arborescence :
 
 - **README** *(celui-la même que tu es entrain de lire en ce moment)*
-- **Cours_THP_et_Aides** *( Pas besoin de te faire un dessin et si tu en veux quand même un tu devrais lire la suite ça devrait t'aider à comprendre )*
+- **Cours_THP_et_Aides** *( Pas besoin de te faire un dessin et si tu en veux quand même un tu devrais lire la suite ça devrait t'aider à comprendre )*  
 -- **Codewars** *( le code de certains katas que j'ai terminé(ou pas), néamoins je te conseille de ne pas trop jeter un oeil là-dedans et de plutôt tenter de réaliser les katas par toi même sur [codewars](https://www.codewars.com/) )*  
 -- **MousaillonsHelp** *( les bonnes idées de code soumises par d'autres mousaillons que j'ai gardé là pour une aide futur )*  
 -- **OpenClassrooms** *( des codes que j'ai réalisé lors de suivi de cours sur [OpenClassrooms](https://openclassrooms.com/) )*  
