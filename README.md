@@ -3,9 +3,6 @@
 ## WELCOME ABOARD, SAILOR ![Pirate ship](https://media.giphy.com/media/GFtsjaDVJnoNa/giphy.gif)
 Bienvenue sur mon repo personnel créé pour suivre la formation de The Hacking Project *(session 7 à Bordeaux)*.
 Il n'y a pas grand chose de plus à rajouter étant donné que ce repo fait principalement office de stockage pour mes cours de la formation mais libre à toi de regarder si l'envie t'en dit.
-> "Now go ! I need to meditate.
->... Or masturbate !"
->                    -- Trevor
 
 ## ORGANISATION DU REPOSITORY ![Luffy miam](https://media.giphy.com/media/OuAvgfl8b1vgY/giphy.gif)
 Si tu souhaites tout de même fouiller un peu, voilà un peu à quoi ressemble l'arborescence :
@@ -19,6 +16,10 @@ Si tu souhaites tout de même fouiller un peu, voilà un peu à quoi ressemble l
 
 ## NOTE ![Luffy kicks](https://media.giphy.com/media/axbcxcNThrlte/giphy.gif)
 Bien sûr si tu es ici juste dans le but de pomper des lignes de code sans chercher à en comprendre le fonctionnement, je te conseille vivement de te raviser car celà ne t'apportera rien.
+
+> "Now go ! I need to meditate.
+... Or masturbate !"
+>                    -- Trevor
 
 ### AUTEUR     ![Donatello](https://www.informatiquegifs.com/tortues/gifs10.gif)
  - Alexandre Gasior *(également membre de [The Super Fuck Friends](https://github.com/THPS07E01))*
