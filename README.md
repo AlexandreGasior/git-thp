@@ -19,7 +19,7 @@ Bien sûr si tu es ici juste dans le but de pomper des lignes de code sans cherc
 
 > "Now go ! I need to meditate.  
 ... Or masturbate !"  
->                    -- Trevor
+>                    - Trevor
 
 ### AUTEUR     ![Donatello](https://www.informatiquegifs.com/tortues/gifs10.gif)
  - Alexandre Gasior *(également membre de [The Super Fuck Friends](https://github.com/THPS07E01))*
