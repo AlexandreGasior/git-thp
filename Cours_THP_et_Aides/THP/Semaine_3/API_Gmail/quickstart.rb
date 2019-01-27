@@ -52,16 +52,8 @@ msg.subject = '<3'
 msg.body = Text.new("Viens jouer à lol <3", 'plain', 'charset' => 'us-ascii')
 msg.from = {'groscostaud.peepoodo@gmail.com' => 'Hey Marcelin'}
 msg.to   = {
-    'sunbro33@hotmail.fr' => nil,
+    'adressemail@hotmail.fr' => nil,
 }
-
-#'kooogaaak@gmail.com' => nil,  FRED
-#'thptest33@gmail.com' => nil, VAL
-#'peepoodooduckfriends@gmail.com' => nil, FRED
-#'misaducros@gmail.com' => nil, MISA
-#'valerian24@hotmail.fr' => nil,  VALOU
-#'sunbro33@hotmail.fr' => nil,  DAVID
-#'yvan.labaste@gadz.org' => nil,  POTE DE VAL
 
 # Création de la requête, insertion du contenu dans la propriété `raw`
 #(https://developers.google.com/gmail/api/v1/reference/users/messages/send)
