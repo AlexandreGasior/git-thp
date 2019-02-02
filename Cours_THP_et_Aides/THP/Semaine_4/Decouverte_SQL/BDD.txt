@@ -1,0 +1,88 @@
+-------------[MOO ACADEMY]-------------
+t_course_cse :
+    cse_id              UNSIGNED INT, AUTO INCREMENT, PK
+    cse_title           VARCHAR(255), NOT NULL
+    cse_description     VARCHAR(600), NOT NULL
+    cse_creation        DEFAULT CURRENT_TIMESTAMP, NOT NULL
+t_lesson_lsn :
+    lsn_id              UNSIGNED INT, AUTO INCREMENT, PK
+    cse_id              UNSIGNED INT, FK => [t_course_cse.cse_id]
+    lsn_title           VARCHAR(255), NOT NULL
+    lsn_body            TEXT, NOT NULL
+    lsn_creation        DEFAULT CURRENT_TIMESTAMP, NOT NULL
+--Recup les leçons d'un cours
+SELECT *
+FROM t_lesson_lsn
+WHERE cse_id = 3
+ORDER BY lsn_creation DESC
+--------[THE HACKING PINTEREST]--------
+t_pins_pns :
+    pns_id              UNSIGNED INT, AUTO INCREMENT, PK
+    pns_title           VARCHAR(255)
+    pns_url             TEXT, NOT NULL
+    pns_creation        DEFAULT CURRENT_TIMESTAMP, NOT NULL
+t_pins_commentary_pcm :
+    pcm_id              UNSIGNED INT, AUTO INCREMENT, PK
+    pns_id              UNSIGNED INT, FK => [t_pins_pm.pns_id]
+    pcm_nickname        VARCHAR(50), NOT NULL
+    pcm_commentary      VARCHAR(255), NOT NULL
+    pcm_creation        DEFAULT CURRENT_TIMESTAMP, NOT NULL
+--Recup les commentaires d'un pin
+SELECT *
+FROM t_pins_commentary_pcm
+WHERE pns_id = 236
+ORDER BY pcm_creation DESC
+--Recup tous les commentaires de "fred" pour un pin donné
+SELECT *
+FROM t_pins_commentary_pcm
+WHERE pns_id = 125
+    AND pcm_nickname = "fred"
+ORDER BY pcm_creation DESC
+-----------[THE HACKING NEWS]----------
+t_user_usr :
+    usr_id              UNSIGNED INT, AUTO INCREMENT, PK
+    usr_nick            VARCHAR(50), NOT NULL
+t_link_lnk :
+    lnk_id              UNSIGNED INT, AUTO INCREMENT, PK
+    usr_id              UNSIGNED INT, FK => [t_user_usr.usr_id]
+    lnk_title           VARCHAR(255)
+    lnk_link            TEXT, NOT NULL
+    lnk_creation        DEFAULT CURRENT_TIMESTAMP, NOT NULL
+t_link_commentary_lcm :
+    lcm_id              UNSIGNED INT, AUTO INCREMENT, PK
+    lnk_id              UNSIGNED INT, FK => [t_link_lnk.lnk_id]
+    usr_id              UNSIGNED INT, FK => [t_user_usr.usr_id]
+    lcm_commentary      VARCHAR(255), NOT NULL
+    lcm_parent_id       UNSIGNED INT
+    lcm_creation        DEFAULT CURRENT_TIMESTAMP, NOT NULL
+--Recup tous les commentaires pour une publication
+SELECT *
+FROM t_link_commentary_lcm
+WHERE lnk_id = 125
+ORDER BY lcm_creation DESC
+--Recup les sous commentaires pour un commentaire donné
+SELECT *
+FROM t_link_commentary_lcm
+WHERE lcm_parent_id = 12
+--Note : le lcm_parent_id peut être l'id d'un sous commentaire...
+-----------[THE HACKING CLASS]---------
+t_course_cse :
+    cse_id              UNSIGNED INT, AUTO INCREMENT, PK
+    cse_title           VARCHAR(255), NOT NULL
+    cse_description     VARCHAR(600), NOT NULL
+    cse_creation        DEFAULT CURRENT_TIMESTAMP, NOT NULL
+t_lesson_lsn :
+    lsn_id              UNSIGNED INT, AUTO INCREMENT, PK
+    cse_id              UNSIGNED INT, FK => [t_course_cse.cse_id]
+    lsn_title           VARCHAR(255), NOT NULL
+    lsn_body            TEXT, NOT NULL
+    lsn_creation        DEFAULT CURRENT_TIMESTAMP, NOT NULL
+t_student_sdt :
+    sdt_id              UNSIGNED INT, AUTO INCREMENT, PK
+    sdt_name            VARCHAR(255), NOT NULL
+    sdt_creation        DEFAULT CURRENT_TIMESTAMP, NOT NULL
+    cse_id              UNSIGNED INT, FK => [t_course_cse.cse_id]
+--Recup tous les étudiants pour un cours donné
+SELECT *
+FROM t_student_sdt
+WHERE cse_id = 2

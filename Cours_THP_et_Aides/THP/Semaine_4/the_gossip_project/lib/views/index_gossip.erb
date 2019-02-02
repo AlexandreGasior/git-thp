@@ -1,0 +1,13 @@
+<html>
+  <head>
+    <title>Potin3000</title>
+  </head>
+  <body>
+    <h1>Potin3000 !</h1>
+    <p>Voici la page du potin n°<%= params[:name] %></p>
+    <p>Son auteur : <%= gossip[0] %></p>
+    <p>Le contenu du potin : <%= gossip[1] %></p>
+    <p><a href="edit/<%= params[:name] %>">Editer le potin</a></p>
+    <a href="/">Back in the motherfucking accueil</a>
+  </body>
+</html>
