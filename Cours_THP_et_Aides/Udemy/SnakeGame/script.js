@@ -4,7 +4,7 @@ window.onload = function() {  // execution au chargement de la fenêtre
   var canvasHeight = 600;
   var ctx;
   var blockSize = 30;
-  var delay = 100;  // temps exprimé en millisecondes
+  var delay = 75;  // temps exprimé en millisecondes
   var snake;
   var apple;
   var widthInBlocks = canvasWidth/blockSize;
