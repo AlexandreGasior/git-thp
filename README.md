@@ -22,6 +22,6 @@ Bien sûr si tu es ici juste dans le but de pomper des lignes de code sans cherc
 >                    - Trevor
 
 ### AUTEUR     ![Donatello](https://www.informatiquegifs.com/tortues/gifs10.gif)
- - Alexandre Gasior *(également membre de [The Super Fuck Friends](https://github.com/THPS07E01))*
+ - Alexandre Gasior
 
 ![Chopper](https://media.giphy.com/media/jG186kNLKs6TS/giphy.gif)
